@@ -31,7 +31,7 @@ const VerificationPage = () => {
         </div>
         {/* Button */}
         <div>
-          <Link to="/">     
+          <Link to="/home">     
           <button className="bg-[#B2DFFC] w-[268px] h-[32px] text-white  text-[14px] rounded-lg mt-4 mx-auto block">
             Next
           </button>
