@@ -70,6 +70,7 @@ const Post = () => {
                 />
                 <button onClick={() => setShowPicker(!showPicker)}>😊</button>
               </div>
+              
 
               {showPicker && (
                 <div className="absolute bottom-12 left-0 z-20">

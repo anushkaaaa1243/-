@@ -40,7 +40,7 @@ const Sidebar = () => {
       <div className="flex flex-col gap-2 xl:gap-3 mt-10 mx-2 xl:mx-0">
         {icons.map((item) => (
           <Link
-            to={item.link}
+            to={item.link} 
             key={item.name}
             className="flex items-center gap-4 p-2 xl:w-[200px] cursor-pointer hover:bg-[#dbdbdbb7] rounded-lg"
           >

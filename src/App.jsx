@@ -23,7 +23,7 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/search" element={<Search />} /> 
         <Route path="/explore" element={<Explore/>}/>
-   
+  
       </Route>
     </Routes>
   );
