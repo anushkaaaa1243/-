@@ -1,8 +1,10 @@
 import React from "react";
 import FooterPage from "../components/FooterPage";
 import { Link } from "react-router";
-import FirstPageImage from "/src/assets/Images/FirstPageImage.png"
-import Facebook from "/src/assets/Images/Facebook.png"
+import FirstPageImage from "/src/assets/Images/FirstPageImage.png";
+import Facebook from "/src/assets/Images/Facebook.png";
+import GooglePlay from "/src/assets/Images/GooglePlay.png";
+import Microsoft from "/src/assets/Images/Microsoft.png";
 const Auth = () => {
   return (
     <div>
@@ -11,10 +13,7 @@ const Auth = () => {
         {/* Image div */}
 
         <div className="h-full hidden md:block">
-          <img
-            src={FirstPageImage}
-            className="h-[450px] object-cover"
-          />
+          <img src={FirstPageImage} className="h-[450px] object-cover" />
         </div>
         {/* Login div */}
         <div className="lg:mr-12">
@@ -112,10 +111,10 @@ const Auth = () => {
           </div>
           <div className="flex justify-center items-center gap-4 mt-4">
             <div className="w-36 h-10">
-              <img src="src/assets/Images/GooglePlay.png" alt="" />
+              <img src={GooglePlay} alt="" />
             </div>
             <div className="w-28 h-10">
-              <img src="src/assets/Images/Microsoft.png" alt="" />
+              <img src={Microsoft} alt="" />
             </div>
           </div>
         </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FooterPage from "../components/FooterPage";
+import GooglePlay from "/src/assets/Images/GooglePlay.png";
+import Microsoft from "/src/assets/Images/Microsoft.png";
+import Facebook from "/src/assets/Images/Facebook.png";
+
 
 const Login = () => {
   return (
@@ -62,7 +66,7 @@ const Login = () => {
           <div>
             {/* Facbook image */}
             <img
-              src="/src/assets/Images/Facebook.png"
+              src={Facebook}
               alt="Facebook Logo"
               className="w-6 h-6 inline-block "
             />
@@ -103,10 +107,10 @@ const Login = () => {
       </div>
       <div className="flex justify-center items-center gap-4 mt-4">
         <div className="w-36 h-10">
-          <img src="src/assets/Images/GooglePlay.png" alt="" />
+          <img src={GooglePlay} alt="" />
         </div>
         <div className="w-28 h-10">
-          <img src="src/assets/Images/Microsoft.png" alt="" />
+          <img src={Microsoft} alt="" />
         </div>
       </div>
       <div>
