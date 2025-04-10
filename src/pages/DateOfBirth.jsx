@@ -8,7 +8,7 @@ const DateOfBirth = () => {
                 {/* Image and text */}
                 <div>
                     <img src="src/assets/Images/BirthdayCake.webp" alt="" />
-                    <h1 className='text-[14px] text-black font-semibold text-center leading-[.1px]'>Add your date of birth</h1>
+                    <h1 className='text-[14px] text-black font-semibold text-center '>Add your date of birth</h1>
                 </div>
                 <div>
                     <h1 className='text-[14px] text-black font-normal text-center mt-5'>This won't be part of your public profile.</h1>

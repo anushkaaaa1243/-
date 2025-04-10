@@ -122,7 +122,7 @@ const Signup = () => {
             Have an account?
           </h1>
           <Link
-            to="/"
+            to="/login"
             className="flex items-center justify-center text-[#0095F6] font-semibold "
           >
             Log in

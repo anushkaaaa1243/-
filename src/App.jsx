@@ -8,12 +8,14 @@ import PageLayout from "./Layouts/PageLayout/PageLayout";
 import HomePage from "./components/HomePage/HomePage";
 import Search from "./components/Search/Search"; 
 import Explore from "./components/Explore/Explore";
+import Auth from "./pages/Auth";
 
 function App() {
   return (
     <Routes>
       {/* Routes WITHOUT layout */}
-      <Route path="/" element={<Login />} />
+      <Route path="/" element ={<Auth/>}/>
+      <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/dateOfbirth" element={<DateOfBirth />} />
       <Route path="/verification" element={<VerificationPage />} />
