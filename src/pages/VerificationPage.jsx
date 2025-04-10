@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import FooterPage from "../components/FooterPage";
 import GooglePlay from "/src/assets/Images/GooglePlay.png";
 import Microsoft from "/src/assets/Images/Microsoft.png";
-import VerificationEmail from "/src/assets/Images/VerificationEmail.jpg"
+import VerificationEmail from "/src/assets/Images/verificationEmail.jpg"
 
 const VerificationPage = () => {
   return (
