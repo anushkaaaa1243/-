@@ -5,8 +5,8 @@ import { MdOutlineSearch } from "react-icons/md";
 import { MdOutlineExplore } from "react-icons/md";
 import { MdOutlineSmartDisplay } from "react-icons/md";
 import { LiaFacebookMessenger } from "react-icons/lia";
-import { FaRegHeart } from "react-icons/fa";
-import { FaRegSquarePlus } from "react-icons/fa6";
+import { FaRegHeart } from "react-icons/fa6";
+import { LuSquarePlus } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa6";
 import { Link } from "react-router";
 import ProfilePhoto from "/src/assets/Images/ProfilePhoto.avif";
@@ -45,7 +45,7 @@ const icons = [
   },
   {
     name: "Create",
-    icons: <FaRegSquarePlus />,
+    icons: <LuSquarePlus />,
     link: "/create",
   },
 ];
@@ -113,7 +113,7 @@ const Sidebar = () => {
 
       {/* For md Screen */}
       <div className="  md:hidden flex  justify-between fixed top-0 left-0 w-full bg-white z-20 border-b border-gray-200 px-4 py-2">
-        <img src={InstagramFont} alt="" srcset="" className="w-[130px]" />
+        <img src={InstagramFont} alt=""  className=" w-[130px]" />
         <div className="flex items-center gap-5">
           <div className=" relative w-full max-w-md">
             <span className="absolute inset-y-0 left-3 flex items-center text-gray-500">
@@ -143,7 +143,7 @@ const Sidebar = () => {
           <Link to="/home"><MdHomeFilled /></Link>
           <Link to="/explore"><MdOutlineExplore /></Link>
           <Link to="/reels"><MdOutlineSmartDisplay/></Link>
-          <Link to="/create"><FaRegSquarePlus /></Link>
+          <Link to="/create"><LuSquarePlus /></Link>
           <Link to="/messages"><LiaFacebookMessenger  /></Link>
           <Link to="/profile">
           <div className="w-full ">

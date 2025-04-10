@@ -20,14 +20,14 @@ const Post = () => {
         return (
           <div key={index} className="w-full">
             {/* Post Header */}
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
+            <div className="flex items-center justify-between mb-3 w-full">
+              <div className="flex items-center gap-2 w-full">
                 <img
                   src={profile.Profile}
                   alt={profile.name}
                   className="w-10 h-10 rounded-full object-cover"
                 />
-                <div className="flex flex-col sm:flex-row sm:items-center gap-1">
+                <div className="flex items-center  w-full">
                   <p className="font-semibold text-sm">{profile.name}</p>
                   <span className="text-xs text-gray-500">{profile.icon}</span>
                   <p className="text-xs text-gray-500">{profile.Time}</p>
