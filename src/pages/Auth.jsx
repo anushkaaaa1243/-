@@ -1,6 +1,8 @@
 import React from "react";
 import FooterPage from "../components/FooterPage";
 import { Link } from "react-router";
+import FirstPageImage from "/src/assets/Images/FirstPageImage.png"
+import Facebook from "/src/assets/Images/Facebook.png"
 const Auth = () => {
   return (
     <div>
@@ -10,7 +12,7 @@ const Auth = () => {
 
         <div className="h-full hidden md:block">
           <img
-            src="-/src/assets/Images/FirstPageImage.png"
+            src={FirstPageImage}
             className="h-[450px] object-cover"
           />
         </div>
@@ -76,7 +78,7 @@ const Auth = () => {
             <div>
               {/* Facbook image */}
               <img
-                src="/src/assets/Images/Facebook.png"
+                src={Facebook}
                 alt="Facebook Logo"
                 className="w-6 h-6 inline-block "
               />
