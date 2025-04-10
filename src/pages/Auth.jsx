@@ -5,6 +5,7 @@ import FirstPageImage from "/src/assets/Images/FirstPageImage.png";
 import Facebook from "/src/assets/Images/Facebook.png";
 import GooglePlay from "/src/assets/Images/GooglePlay.png";
 import Microsoft from "/src/assets/Images/Microsoft.png";
+import InstagramFont from "/src/assets/Images/InstagramFont.png";
 const Auth = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const Auth = () => {
         <div className="lg:mr-12">
           <div>
             <img
-              src="src/assets/Images/InstagramFont.png"
+              src={InstagramFont}
               alt=""
               className="w-44 block mx-auto"
             />

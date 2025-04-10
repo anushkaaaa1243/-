@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FooterPage from "../components/FooterPage";
-import Facebook from "/src/assets/Images/Facebook.png";
 import GooglePlay from "/src/assets/Images/GooglePlay.png";
 import Microsoft from "/src/assets/Images/Microsoft.png";
-
+import Facebook from "/src/assets/Images/Facebook.png";
+import InstagramFont from "/src/assets/Images/InstagramFont.png";
 
 const Login = () => {
   return (
@@ -12,7 +12,7 @@ const Login = () => {
       <div className="md:border md:boder-[#737373] w-[350px] flex mx-auto  mt-3 h-[400px]  flex-col">
         <div>
           <img
-            src="src/assets/Images/InstagramFont.png"
+            src={InstagramFont}
             alt=""
             className="w-44 block mt-10 mx-auto"
           />
