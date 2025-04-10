@@ -10,7 +10,7 @@ const Auth = () => {
 
         <div className="h-full hidden md:block">
           <img
-            src="src/assets/Images/FirstPageImage.png"
+            src="-/src/assets/Images/FirstPageImage.png"
             className="h-[450px] object-cover"
           />
         </div>
