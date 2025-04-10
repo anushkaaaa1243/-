@@ -9,7 +9,7 @@ import InstagramFont from "/src/assets/Images/InstagramFont.png";
 const Login = () => {
   return (
     <div>
-      <div className="md:border md:boder-[#737373] w-[350px] flex mx-auto  mt-3 h-[400px]  flex-col">
+      <div className=" border boder-[#737373] w-[350px] flex mx-auto  mt-3 h-[400px]  flex-col">
         <div>
           <img
             src={InstagramFont}
@@ -24,7 +24,7 @@ const Login = () => {
             <input
               type="text"
               id="username"
-              className="peer border w-[258px] h-10 text-sm p-2 rounded-sm border-[#5555552c] outline-none "
+              className="peer border w-[258px] h-9 text-sm p-2 rounded-sm border-[#5555552c] outline-none "
               required
             />
             <label
@@ -38,7 +38,7 @@ const Login = () => {
             <input
               type="password"
               id="password"
-              className="peer border w-[258px] h-10 text-sm p-2 rounded-sm border-[#5555552c] outline-none "
+              className="peer border w-[258px] h-9 text-sm p-2 rounded-sm border-[#5555552c] outline-none "
               required
             />
             <label
@@ -52,7 +52,7 @@ const Login = () => {
         <div className="mx-auto">
           {/* Button */}
           <Link to="/home">
-            <button className=" w-[258px]  mx-aut0 mt-4 h-8 bg-[#1877F2] text-white text-[15px] font-[600] rounded-xl hover:bg-[#1877F2]">
+            <button className=" w-[268px]  mx-aut0 mt-4 h-9 bg-[#1877F2] text-white text-[15px] font-[600] rounded-xl hover:bg-[#1877F2]">
               Log in
             </button>
           </Link>
@@ -84,7 +84,7 @@ const Login = () => {
         </Link>
       </div>
 
-      <div className="md:border md:boder-[#737373] w-[350px] mx-auto  mt-3 h-20 ">
+      <div className="border boder-[#737373] w-[350px] mx-auto  mt-3 h-20 ">
         <div className=" gap-1 mt-5 flex justify-center items-center">
           <h1 className="text-center text-[15px] font-normal">
             Have an account?

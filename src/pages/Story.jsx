@@ -19,9 +19,9 @@ const Story = () => {
 
   return (
     
-    <div className="relative w-full max-w-[650px] mx-auto px-2">
+    <div className="relative w-full max-w-[650px] mx-auto px-2 mt-14 md:mt-0">
       {/* Story list */}
-      <div className="flex gap-5 p-2 mt-3 overflow-hidden">
+      <div className="flex gap-5 overflow-hidden">
         {StoryData.map((item, index) => (
           <div
             key={index}

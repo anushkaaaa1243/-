@@ -16,14 +16,14 @@ const PageLayout = () => {
   if (!showLayout) return <Outlet />;
 
   return (
-    <div className="flex flex-col md:flex-row">
-      {/* Sidebar */}
-      <div className="fixed top-0 left-0 h-screen w-[60px] md:w-[70px] xl:w-[250px] border-r bg-white z-10">
+    <div >
+      <div className="flex flex-col md:flex-row mt-7" >
+      <div className="md:fixed md:top-0 lg:left-0  md:h-screen w-[60px] md:w-[90px] xl:w-[250px] md:border-r bg-white md:z-10 ">
         <Sidebar />
       </div>
 
       {/* Main content + suggestion */}
-      <div className="flex flex-col md:flex-row w-full ml-[80px] xl:ml-[250px] px-4 py-6 sm:px-4 mt-[60px] md:mt-6 gap-4">
+      <div className=" flex flex-col md:flex-row w-full md:ml-[85px] xl:ml-[250px] px-4  sm:px-4  gap-4">
         {/* Main Content like Search or Home */}
         <div className="flex-1">
           <Outlet />
@@ -36,6 +36,9 @@ const PageLayout = () => {
           </div>
         )}
       </div>
+      </div>
+      {/* Sidebar */}
+    
     </div>
   );
 };
