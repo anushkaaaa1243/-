@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FooterPage from "../components/FooterPage";
+import Facebook from "/src/assets/Images/Facebook.png";
 import GooglePlay from "/src/assets/Images/GooglePlay.png";
 import Microsoft from "/src/assets/Images/Microsoft.png";
-import Facebook from "/src/assets/Images/Facebook.png";
 
 const Signup = () => {
   return (

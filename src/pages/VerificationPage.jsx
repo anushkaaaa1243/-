@@ -4,6 +4,7 @@ import FooterPage from "../components/FooterPage";
 import GooglePlay from "/src/assets/Images/GooglePlay.png";
 import Microsoft from "/src/assets/Images/Microsoft.png";
 import VerificationEmail from "/src/assets/Images/VerificationEmail.jpg";
+
 const VerificationPage = () => {
   return (
     <div>

@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router";
 import FooterPage from "../components/FooterPage";
-import Microsoft from "/src/assets/Images/Microsoft.png";
+
 import GooglePlay from "/src/assets/Images/GooglePlay.png";
-import BirthdayCake from '/src/assets/Images/BirthdayCake.webp'
+import Microsoft from "/src/assets/Images/Microsoft.png";
+import BirthdayCake from "/src/assets/Images/BirthdayCake.webp";
 const DateOfBirth = () => {
   return (
     <div>
