@@ -8,7 +8,7 @@ import VerificationEmail from "/src/assets/Images/verificationEmail.jpg"
 const VerificationPage = () => {
   return (
     <div>
-      <div className="border boder-[#737373] w-[350px]  mx-auto  mt-3 h-[380px]">
+      <div className="border border-[#7373732f] w-[350px]  mx-auto  mt-3 h-[380px]">
         {/* Image and text */}
         <div>
           <img

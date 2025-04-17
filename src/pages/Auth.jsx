@@ -25,21 +25,18 @@ const Auth = () => {
               className="w-44 block mx-auto"
             />
           </div>
-          <div className="mt-8 flex flex-col gap-4">
+          <div className="mt-8 flex flex-col gap-2">
             {/* Username or Email Input */}
             <div className="relative">
               <input
                 type="text"
                 id="username"
-                className="peer border w-[260px] md:w-[300px] h-10 text-sm p-2 rounded-sm border-[#5555552c] outline-none "
-                required
+                className=" border w-[260px] md:w-[300px] h-10 text-sm p-2 bg-slate-50 rounded-sm border-[#5555552c] outline-none "
+               placeholder="Phone number, username, or email address"
               />
-              <label
-                htmlFor="username"
-                className="absolute left-2 top-2 text-gray-400 text-xs transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-500 peer-focus:top-1 peer-focus:text-xs "
-              >
-                Phone number, username, or email address
-              </label>
+             
+          
+              
             </div>
 
             {/* Password Input */}
@@ -47,15 +44,12 @@ const Auth = () => {
               <input
                 type="password"
                 id="password"
-                className="peer border w-[260px] md:w-[300px] h-10 text-sm p-2 rounded-sm border-[#5555552c] outline-none "
-                required
+                className=" border w-[260px] md:w-[300px] h-10 text-sm p-2 bg-slate-50 rounded-sm border-[#5555552c] outline-none "
+              placeholder="Password"
               />
-              <label
-                htmlFor="password"
-                className="absolute left-2 top-2 text-gray-400 text-xs transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-500 peer-focus:top-1 peer-focus:text-xs "
-              >
-                Password
-              </label>
+             
+              
+            
             </div>
           </div>
           <div>

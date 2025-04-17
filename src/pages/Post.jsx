@@ -6,7 +6,7 @@ import { Picker } from "emoji-mart";
 
 const Post = () => {
   return (
-    <div className="flex flex-col gap-10 px-2 sm:px-4 md:px-6 py-5 w-full max-w-[650px] mx-auto">
+    <div className="flex flex-col gap-10 px-2 sm:px-4 md:px-6 py-5 w-full max-w-[550px] mx-auto ">
       {PostData.map((post, index) => {
         const profile = ProfileData[index];
         const [comment, setComment] = useState("");

@@ -9,7 +9,7 @@ import BirthdayCake from "/src/assets/Images/BirthdayCake.webp";
 const DateOfBirth = () => {
   return (
     <div>
-      <div className="border border-[#737373] w-[350px] mx-auto mt-3 h-[520px]">
+      <div className="border border-[#7373732f] w-[350px] mx-auto mt-3 h-[520px]">
         {/* Image and text */}
         <div>
           <img src={BirthdayCake} alt="Birthday Cake" />
@@ -76,7 +76,7 @@ const DateOfBirth = () => {
       </div>
 
       {/* Already have an account */}
-      <div className="md:border md:border-[#737373] w-[350px] mx-auto mt-3 h-20">
+      <div className="md:border border-[#7373732f] w-[350px] mx-auto mt-3 h-20">
         <div className="gap-1 mt-5">
           <h1 className="text-center text-[15px] font-normal">
             Have an account?

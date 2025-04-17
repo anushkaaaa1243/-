@@ -111,9 +111,9 @@ const Sidebar = () => {
 
 
 
-      {/* For md Screen */}
+      {/* For sm Screen */}
       <div className="  md:hidden flex  justify-between fixed top-0 left-0 w-full bg-white z-20 border-b border-gray-200 px-4 py-2">
-        <img src={InstagramFont} alt=""  className=" w-[130px]" />
+        <img src={InstagramFont} alt=""  className=" w-[100px]  overflow-hidden" />
         <div className="flex items-center gap-5">
           <div className=" relative w-full max-w-md">
             <span className="absolute inset-y-0 left-3 flex items-center text-gray-500">
@@ -138,7 +138,7 @@ const Sidebar = () => {
 
 
 {/* For sm screen */}
-<div className="lg:hidden fixed bottom-0 left-0 w-full bg-white z-20 border-t border-gray-200 px-4 py-2">
+<div className="md:hidden fixed bottom-0 left-0 w-full bg-white z-20 border-t border-gray-200 px-4 py-2">
         <div className="flex justify-around items-center text-[27px]">
           <Link to="/home"><MdHomeFilled /></Link>
           <Link to="/explore"><MdOutlineExplore /></Link>

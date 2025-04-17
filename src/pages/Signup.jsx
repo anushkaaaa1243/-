@@ -11,7 +11,7 @@ import InstagramFont from "/src/assets/Images/InstagramFont.png";
 const Signup = () => {
   return (
     <div>
-      <div className="md:border md:border-[#737373] w-[350px] flex mx-auto mt-3 h-[620px] flex-col">
+      <div className="md:border md:border-[#7373732f] w-[350px] flex mx-auto mt-3 h-[620px] flex-col">
         <div>
           <img
             src={InstagramFont}
@@ -28,11 +28,11 @@ const Signup = () => {
         </div>
 
         {/* Facebook login button */}
-        <div className="flex justify-center items-center gap-4 mt-4 border w-[260px] mx-auto h-9 rounded-lg bg-[#0095F6]">
+        <div className="flex justify-center items-center gap-4 mt-4 border w-[270px] mx-auto h-9 rounded-lg bg-[#0095F6]">
           <button>
             <img src={Facebook} alt="Facebook logo" className="w-5 h-5" />
           </button>
-          <button className="text-white font-semibold text-[14px] h-8">
+          <button className="text-white font-semibold text-[14px] h-9">
             Log in with Facebook
           </button>
         </div>
@@ -113,7 +113,7 @@ const Signup = () => {
       </div>
 
       {/* Login redirect */}
-      <div className="md:border md:border-[#737373] w-[350px] mx-auto mt-3 h-20">
+      <div className="md:border md:border-[#7373732f] w-[350px] mx-auto mt-3 h-20">
         <div className="gap-1 mt-5">
           <h1 className="text-center text-[15px] font-normal">
             Have an account?
