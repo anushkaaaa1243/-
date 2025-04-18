@@ -57,13 +57,15 @@ const Sidebar = () => {
       <div className=" hidden md:flex flex-col  mt-7 pl-[25px] pr-[25px] pt-[16px] cursor-pointer">
         <div className="">
           <div className="w-full p-2 flex items-center justify-center lg:justify-start">
-            <img
-              src={InstagramFont}
-              alt=""
-              srcset=""
-              className=" w-[103px] h-[29px] overflow-hidden object-contain hidden xl:block"
-            />
-            <FaInstagram className=" text-2xl    xl:hidden" />
+            <Link to="/home">
+              <img
+                src={InstagramFont}
+                alt=""
+                srcset=""
+                className=" w-[103px] h-[29px] overflow-hidden object-contain hidden xl:block"
+              />
+              <FaInstagram className=" text-2xl    xl:hidden" />
+            </Link>
           </div>
         </div>
         <div>
@@ -105,15 +107,13 @@ const Sidebar = () => {
         </div>
       </div>
 
-
-
-
-
-
-
       {/* For sm Screen */}
       <div className="  md:hidden flex  justify-between fixed top-0 left-0 w-full bg-white z-20 border-b border-gray-200 px-4 py-2">
-        <img src={InstagramFont} alt=""  className=" w-[100px]  overflow-hidden" />
+        <img
+          src={InstagramFont}
+          alt=""
+          className=" w-[100px]  overflow-hidden"
+        />
         <div className="flex items-center gap-5">
           <div className=" relative w-full max-w-md">
             <span className="absolute inset-y-0 left-3 flex items-center text-gray-500">
@@ -124,41 +124,46 @@ const Sidebar = () => {
               placeholder="Search"
               className="w-full pl-10 pr-4 py-2  bg-[#EFEFEF] focus:outline-none  text-[16px] rounded-lg"
             />
-        </div>
-        <div>
-          <span className="text-[25px]">
-            <FaRegHeart />
-          </span>
-        </div>
           </div>
+          <div>
+            <span className="text-[25px]">
+              <FaRegHeart />
+            </span>
+          </div>
+        </div>
       </div>
-      
-    
 
-
-
-{/* For sm screen */}
-<div className="md:hidden fixed bottom-0 left-0 w-full bg-white z-20 border-t border-gray-200 px-4 py-2">
+      {/* For sm screen */}
+      <div className="md:hidden fixed bottom-0 left-0 w-full bg-white z-20 border-t border-gray-200 px-4 py-2">
         <div className="flex justify-around items-center text-[27px]">
-          <Link to="/home"><MdHomeFilled /></Link>
-          <Link to="/explore"><MdOutlineExplore /></Link>
-          <Link to="/reels"><MdOutlineSmartDisplay/></Link>
-          <Link to="/create"><LuSquarePlus /></Link>
-          <Link to="/messages"><LiaFacebookMessenger  /></Link>
+          <Link to="/home">
+            <MdHomeFilled />
+          </Link>
+          <Link to="/explore">
+            <MdOutlineExplore />
+          </Link>
+          <Link to="/reels">
+            <MdOutlineSmartDisplay />
+          </Link>
+          <Link to="/create">
+            <LuSquarePlus />
+          </Link>
+          <Link to="/messages">
+            <LiaFacebookMessenger />
+          </Link>
           <Link to="/profile">
-          <div className="w-full ">
+            <div className="w-full ">
               <div className="flex items-center justify-center lg:justify-start gap-3 mt-3 xl:p-2 h-11  hover:bg-gray-100 rounded-lg ">
                 <img
                   src={ProfilePhoto}
                   alt=""
                   className="w-9 h-9 rounded-full "
                 />
-                
               </div>
             </div>
           </Link>
-          </div>
-</div>
+        </div>
+      </div>
     </div>
   );
 };
