@@ -77,7 +77,7 @@ const Login = () => {
             </h1>
           </div>
         </div>
-        <Link>
+        <Link to="/forgetPassword">
           <h1 className="text-center ml-8 mt-5 text-[#00376B]">
             Forgotten your password?
           </h1>

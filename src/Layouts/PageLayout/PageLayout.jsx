@@ -11,7 +11,7 @@ const PageLayout = () => {
   const showLayout = !hideLayoutRoutes.includes(pathname);
 
   // Hide suggestion on explore
-  const hideSuggestionRoutes = ["/explore"];
+  const hideSuggestionRoutes = ["/explore","/Profile"];
   const showSuggestion = !hideSuggestionRoutes.includes(pathname);
   if (!showLayout) return <Outlet />;
 
