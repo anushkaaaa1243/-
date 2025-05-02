@@ -16,7 +16,7 @@ const FooterPage = () => {
 
   return (
     <div>
-      <footer className="text-[13px] text-[#e0e0e0] py-6   font-semibold mt-5">
+      <footer className="text-[13px] text-[#D2D2D2] py-6   font-semibold mt-5">
         <div className="flex flex-wrap   mb-2 text-center">
           {links.map((link) => (
             <div key={link}>

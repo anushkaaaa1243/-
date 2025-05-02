@@ -4,7 +4,7 @@ const Search = () => {
   const [query, setQuery] = useState("");
 
   return (
-    <div className="w-full max-w-[500px] mt-10">
+    <div className="w-full max-w-[500px] mt-10 ml-20">
       <h2 className="text-2xl font-bold mb-4">Search</h2>
       <input
         type="text"
@@ -13,7 +13,7 @@ const Search = () => {
         onChange={(e) => setQuery(e.target.value)}
         className="w-full p-2 border border-gray-300 rounded-lg outline-none"
       />
-      {/* You can map search results here */}
+     
     </div>
   );
 };
