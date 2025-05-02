@@ -1,21 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaLessThan, FaGreaterThan } from "react-icons/fa6";
 import StoryData from "../components/StoryData/StoryData";
 
 const Story = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleNext = () => {
-    if (currentIndex < StoryData.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-    }
-  };
-
-  const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
-  };
 
   return (
     <div className="relative w-full max-w-[650px] mx-auto px-2 mt-14 md:mt-0">
@@ -43,12 +31,12 @@ const Story = () => {
       <div className="absolute top-4 w-full px-2 flex justify-between items-center z-10">
         <button
           className="bg-white shadow-md rounded-full p-1 sm:p-2"
-          onClick={handlePrev}
+          
         >
           <FaLessThan className="text-gray-400 text-xs sm:text-sm" />
         </button>
         <button
-          onClick={handleNext}
+         
           className="bg-white shadow-md rounded-full p-1 sm:p-2"
         >
           <FaGreaterThan className="text-gray-400 text-xs sm:text-sm" />
