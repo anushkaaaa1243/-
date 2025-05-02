@@ -40,7 +40,7 @@ const Story = () => {
       </div>
 
       {/* Navigation buttons */}
-      <div className="absolute top-1/2 -translate-y-1/2 w-full px-2 flex justify-between items-center z-10">
+      <div className="absolute top-4 w-full px-2 flex justify-between items-center z-10">
         <button
           className="bg-white shadow-md rounded-full p-1 sm:p-2"
           onClick={handlePrev}
